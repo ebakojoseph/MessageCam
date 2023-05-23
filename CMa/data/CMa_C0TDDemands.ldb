@@ -1,0 +1,549 @@
+TDB: empty
+ADB: CMa
+problem: CMa
+description:
+# Cameroon
+drate: 10
+timesteps: 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042
+loadregions:
+ltype ordered seasonal 1 0
+year 2015 1 10
+name aaa aab aac \
+baa bab bac bad \
+caa cab cac 
+length 0.100685 0.199885 0.071918 \
+0.097489 0.153196 0.027854 0.041781 \
+0.093493 0.146918 0.066781 
+energyforms:
+Final f
+# Final Energy
+Industry e l
+# Industry Electricity Final
+Commerce c l
+# Commerce Electricity Final
+Urban u l
+# Urban Electricity Final
+Rural r l
+# Rural Electricity Final
+SentOut s l f
+# Sentout Electricity Final
+Export E 
+# Export Elc
+*
+Tertiary t
+# Tertiary Energy
+Industry i l
+# Industry Electricity Tertiary
+Commerce c l
+# Commerce Electricity Tertiary
+Urban u l
+# Urban Electricity Tertiary
+Rural r l
+# Rural Electricity Tertiary
+Electricity e l f
+# Tertiary Electricity
+*
+Secondary s
+# Secondary Energy
+Electricity I l f
+# Secondary Electricity
+ElcDummy d l
+# Dummy elc for PS
+*
+Primary p
+# Primary Energy
+Bagasse b 
+# Bagasse
+Wood B 
+# Wood
+Hydro H 
+# Hydro
+Solar s l
+# Solar
+Wind w 
+# Wind
+Coal c 
+# Coal
+CoalCCS C 
+# Coal CCS
+Gas g 
+# Gas
+Nuclear n 
+# Nuclear
+Oil o 
+# Oil
+HFO h 
+# diesel
+Diesel d 
+# HFO
+Crude p 
+# Crude
+*
+Resources r
+# Resources
+Biomass b 
+# Biomass resource
+Coal c 
+# Coal resource
+*
+demand:
+e-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+c-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+u-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+r-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+s-f  ts 864.48 899.42 972.62 1038.35 1108.46 1183.17 1410.57 1637.94 1834.83 2058.23 2281.62 2505 2728.39 2902.74 3122.24 3341.75 3724.71 4107.67 4442.85 4821.72 5200.61 5579.5 5958.39 6270.55 6645.45 7020.33 7020.33
+loadcurve:
+year 2015
+e-f 0.100685 0.165905 0.075412 0.102225 0.160639 \
+0.029207 0.043811 0.098035 0.154056 0.070025
+c-f 0.095622 0.211332 0.068301 0.092586 0.160188 \
+0.026453 0.03968 0.088792 0.153623 0.063423
+u-f 0.05801 0.178075 0.127963 0.053605 0.17146 \
+0.048181 0.051088 0.056007 0.163959 0.091652
+r-f 0.05801 0.178075 0.127963 0.053605 0.17146 \
+0.048181 0.051088 0.056007 0.163959 0.091652
+s-f 0.084675 0.167407 0.084932 0.083801 0.165354 \
+0.038583 0.043862 0.080843 0.152369 0.098174
+systems.CMHYMI00.g.capfac 0.961298 0.961298 0.961298 0 0 \
+0 0 0 0 0
+systems.CMWDLC00.h.capfac 0.434331 0.109773 0.347389 0.357446 0.202261 \
+0.31444 0.427852 0.275898 0.073604 0.244592
+systems.CMWDLCZ003.C.capfac 0.571618 0.173229 0.537033 0.310023 0.109043 \
+0.234058 0.317973 0.423516 0.108852 0.39991
+systems.CMWDLCZ002.B.capfac 0.434331 0.109773 0.347389 0.357446 0.202261 \
+0.31444 0.427852 0.275898 0.073604 0.244592
+systems.CMWDLCZ001.A.capfac 0.540512 0.197023 0.403149 0.347662 0.21156 \
+0.335704 0.385258 0.337698 0.120705 0.3003
+systems.CMSOPC00.i.capfac 0.002732 0.465771 0 0.00525 0.33448 \
+0 0 0.006824 0.453234 0
+systems.CMSOPCZ003.I.capfac 0.001775 0.446149 0 0.004702 0.359525 \
+0 0 0.004794 0.454333 0
+systems.CMSOPCZ002.H.capfac 0.002732 0.465771 0 0.00525 0.33448 \
+0 0 0.006824 0.453234 0
+systems.CMSOPCZ001.G.capfac 0.002798 0.469174 0 0.005242 0.342898 \
+0 0 0.006722 0.455662 0
+systems.CMSOPU00.g.capfac 0.002459 0.419194 0 0.004725 0.301032 \
+0 0 0.006141 0.407911 0
+systems.CMSOPB00.g.capfac 0.002459 0.419194 0 0.004725 0.301032 \
+0 0 0.006141 0.407911 0
+systems.CMSOPR00.g.capfac 0.199384 0.376775 0.383447 0.186344 0.374308 \
+0.500351 0.339944 0.203368 0.37518 0.381769
+systems.CMSOPS00.h.capfac 0.002459 0.419194 0 0.004725 0.301032 \
+0 0 0.006141 0.407911 0
+systems.CMSOTN00.j.capfac 0.002732 0.465771 0 0.00525 0.33448 \
+0 0 0.006824 0.453234 0
+systems.CMSOTS00.k.capfac 0 0.642617 0.178538 0 0.642617 \
+0.33105 0.076863 0.000254 0.642906 0.177905
+relationsc:
+relationsp:
+relationss:
+relations1:
+relations2:
+variables:
+systems:
+CMEL00TDI a
+moutp i-t c 1
+inv c 0.1
+fom c 0.01
+# Description: Industry Distribution
+*
+CMEL00TDU a
+moutp u-t c 1
+inv c 0.1
+fom c 0.01
+# Description: Urban Distribution
+*
+CMEL00TDC a
+moutp c-t c 1
+inv c 0.1
+fom c 0.01
+# Description: Commerce Distribution
+*
+CMEL00TDR a
+moutp r-t c 1
+inv c 0.1
+fom c 0.01
+# Description: Rural Distribution
+*
+CMEL00T00 a
+moutp e-t c 1
+inv c 0.1
+fom c 0.01
+# Description: Transmission
+*
+CMEL00TUI a
+# Description: Industry Demand
+*
+CMEL00TUU a
+# Description: Urban Demand
+*
+CMEL00TUC a
+# Description: Commerce Demand
+*
+CMEL00TUR a
+# Description: Rural Demand
+*
+CMEL00TUS a
+# Description: SentOut Demand
+*
+CMEL00e00 a
+# Description: Export of Electricity
+*
+CMEL00i00 I
+# Description: Import of Electricity
+*
+CMELBS00 z
+# Description: Backstop
+*
+CMDSRC00 g
+# Description: Generic Diesel Centralized
+*
+CMDSRC_OYOMABANG-II G
+# Description: OYOMABANG-II
+*
+CMDSRC_MBALMAYO.EDC F
+# Description: MBALMAYO.EDC
+*
+CMDSRC_LIMBE E
+# Description: LIMBE
+*
+CMDSRC_EBOLOWA.EDC D
+# Description: EBOLOWA.EDC
+*
+CMDSRC_DOUALA.BASSA C
+# Description: DOUALA.BASSA
+*
+CMDSRC_BAMENDA B
+# Description: BAMENDA
+*
+CMDSRC_AHALA A
+# Description: AHALA
+*
+CMDSRI00 g
+# Description: Generic Diesel 100 kW system (Industry)
+*
+CMDSRU00 g
+# Description: Generic Diesel/Gasoline 1kW system (urban)
+*
+CMDSRB00 g
+# Description: Generic Diesel/Gasoline 1kW system (commercial buildings)
+*
+CMDSRR00 g
+# Description: Generic Diesel/Gasoline 1kW system (rural)
+*
+CMHFRC00 g
+# Description: Generic HFO
+*
+CMHFRC_YASSA-DIBAMBA C
+# Description: YASSA-DIBAMBA
+*
+CMHFRC_OYOMABANG-I B
+# Description: OYOMABANG-I
+*
+CMHFRC_CAPE.LIMBOH A
+# Description: CAPE.LIMBOH
+*
+CMNGSC00 g
+# Description: Generic Gas Open Cycle
+*
+CMNGSC_LITTORAL.POWER F
+# Description: LITTORAL.POWER
+*
+CMNGSC_LIMBE.ERANOVE E
+# Description: LIMBE.ERANOVE
+*
+CMNGSC_KRIBI.Candidate D
+# Description: KRIBI.Candidate
+*
+CMNGSC_KRIBI C
+# Description: KRIBI
+*
+CMNGSC_ALTAAQA.LOGBABA B
+# Description: ALTAAQA.LOGBABA
+*
+CMNGSC_ALTAAQA.BASSA A
+# Description: ALTAAQA.BASSA
+*
+CMNGRC00 a
+# Description: Generic Gas Engine
+*
+CMNGCC00 h
+# Description: Generic Gas Combined Cycle
+*
+CMCOCS00 g
+# Description: Generic Coal w CCS
+*
+CMCOSC00 g
+# Description: Generic Coal
+*
+CMHYDM00 g
+# Description: Generic Hydro With Dam
+*
+CMHYRO00 a
+# Description: Generic Hydro Run of River
+*
+CMHYRO_TATUM R
+# Description: TATUM
+*
+CMHYRO_SONG-MBONG Q
+# Description: SONG-MBONG
+*
+CMHYRO_SONG-LOULOU P
+# Description: SONG-LOULOU
+*
+CMHYRO_NGOILA O
+# Description: NGOILA
+*
+CMHYRO_NACHTIGAL.AMONT N
+# Description: NACHTIGAL.AMONT
+*
+CMHYRO_MENCHUM.BAMENDA M
+# Description: MENCHUM.BAMENDA
+*
+CMHYRO_MEMVE-ELE L
+# Description: MEMVE'ELE
+*
+CMHYRO_MBENGWI K
+# Description: MBENGWI
+*
+CMHYRO_MBAKAOU.MINI J
+# Description: MBAKAOU.MINI
+*
+CMHYRO_MAKAY I
+# Description: MAKAY
+*
+CMHYRO_LOM-PANGAR H
+# Description: LOM-PANGAR
+*
+CMHYRO_LAGDO G
+# Description: LAGDO
+*
+CMHYRO_HYDRO-MEKIN F
+# Description: HYDRO-MEKIN
+*
+CMHYRO_EDEA E
+# Description: EDEA
+*
+CMHYRO_CHOLLET.(DJA.RIVER) D
+# Description: CHOLLET.(DJA.RIVER)
+*
+CMHYRO_BUEA.MUNA C
+# Description: BUEA.MUNA
+*
+CMHYRO_BINI.A.WARAK B
+# Description: BINI.A.WARAK
+*
+CMHYRO_BESONG.ABANG A
+# Description: BESONG.ABANG
+*
+CMHYMI00 g
+# Description: Generic Hydro Small
+*
+CMBMST00 g
+# Description: Generic Bagasse
+*
+CMBMST_FORZI.BUEA B
+# Description: FORZI.BUEA
+*
+CMBMST_FORZI.AKWAYA A
+# Description: FORZI.AKWAYA
+*
+CMBMST01 k
+*
+CMBWST00 a
+# Description: Generic Wood
+*
+CMGOCV00 g
+# Description: Generic Geothermal
+*
+CMWDLC00 h
+# Description: Generic Wind
+*
+CMWDLCZ003 C
+# Description: Wind Zone 3
+*
+CMWDLCZ002 B
+# Description: Wind Zone 2
+*
+CMWDLCZ001 A
+# Description: Wind Zone 1
+*
+CMSOPC00 i
+# Description: Generic PV System (utility)
+*
+CMSOPCZ003 I
+# Description: Solar PV Zone 3
+*
+CMSOPCZ002 H
+# Description: Solar PV Zone 2
+*
+CMSOPCZ001 G
+# Description: Solar PV Zone 1
+*
+CMSOPC_SOUTH.GRID.SOLAR F
+# Description: SOUTH.GRID.SOLAR
+*
+CMSOPC_NGAOUNDERE.SOLAR E
+# Description: NGAOUNDERE.SOLAR
+*
+CMSOPC_MAROUA.SOLAR D
+# Description: MAROUA.SOLAR
+*
+CMSOPC_GUIDER.SOLAR C
+# Description: GUIDER.SOLAR
+*
+CMSOPC_GAROUA.SOLAR B
+# Description: GAROUA.SOLAR
+*
+CMSOPC_FOYER.DU.MARIN A
+# Description: FOYER.DU.MARIN
+*
+CMSOPU00 g
+# Description: Generic PV system (roof top - urban)
+*
+CMSOPB00 g
+# Description: Generic PV system (roof top - commercial buildings)
+*
+CMSOPR00 g
+# Description: Generic PV system (roof top - rural)
+*
+CMSOPS00 h
+# Description: Generic PV with 2h Battery (roof top - rural)
+*
+CMSOTN00 j
+# Description: Generic Solar thermal no storage
+*
+CMSOTS00 k
+# Description: Generic Solar thermal with Storage
+*
+CMSOTG00 i
+# Description: Generic Solar thermal with Gas co-firing
+*
+CMBM00X00 a
+# Description: Extraction of Bagasse
+*
+CMBW00X00 a
+# Description: Extraction of Wood
+*
+CMHY00X00 a
+# Description: Supply of Hydro
+*
+CMSO00X00 a
+# Description: Supply of Solar
+*
+CMWD00X00 a
+# Description: Supply of Wind
+*
+CMHF00I00 a
+# Description: Import of HFO
+*
+CMDS00I00 a
+# Description: Import of Diesel
+*
+CMNG00X00 a
+# Description: Extraction of Natural Gas
+*
+CMCO00I00 a
+# Description: Import of Coal
+*
+resources: 
+endata
+
+CMBWST00 a
+# Description: Generic Wood
+*
+CMGOCV00 g
+# Description: Generic Geothermal
+*
+CMWDLC00 h
+# Description: Generic Wind
+*
+CMWDLCZ003 C
+# Description: Wind Zone 3
+*
+CMWDLCZ002 B
+# Description: Wind Zone 2
+*
+CMWDLCZ001 A
+# Description: Wind Zone 1
+*
+CMSOPC00 i
+# Description: Generic PV System (utility)
+*
+CMSOPCZ003 I
+# Description: Solar PV Zone 3
+*
+CMSOPCZ002 H
+# Description: Solar PV Zone 2
+*
+CMSOPCZ001 G
+# Description: Solar PV Zone 1
+*
+CMSOPC_SOUTH.GRID.SOLAR F
+# Description: SOUTH.GRID.SOLAR
+*
+CMSOPC_NGAOUNDERE.SOLAR E
+# Description: NGAOUNDERE.SOLAR
+*
+CMSOPC_MAROUA.SOLAR D
+# Description: MAROUA.SOLAR
+*
+CMSOPC_GUIDER.SOLAR C
+# Description: GUIDER.SOLAR
+*
+CMSOPC_GAROUA.SOLAR B
+# Description: GAROUA.SOLAR
+*
+CMSOPC_FOYER.DU.MARIN A
+# Description: FOYER.DU.MARIN
+*
+CMSOPU00 g
+# Description: Generic PV system (roof top - urban)
+*
+CMSOPB00 g
+# Description: Generic PV system (roof top - commercial buildings)
+*
+CMSOPR00 g
+# Description: Generic PV system (roof top - rural)
+*
+CMSOPS00 h
+# Description: Generic PV with 2h Battery (roof top - rural)
+*
+CMSOTN00 j
+# Description: Generic Solar thermal no storage
+*
+CMSOTS00 k
+# Description: Generic Solar thermal with Storage
+*
+CMSOTG00 i
+# Description: Generic Solar thermal with Gas co-firing
+*
+CMBM00X00 a
+# Description: Extraction of Bagasse
+*
+CMBW00X00 a
+# Description: Extraction of Wood
+*
+CMHY00X00 a
+# Description: Supply of Hydro
+*
+CMSO00X00 a
+# Description: Supply of Solar
+*
+CMWD00X00 a
+# Description: Supply of Wind
+*
+CMHF00I00 a
+# Description: Import of HFO
+*
+CMDS00I00 a
+# Description: Import of Diesel
+*
+CMNG00X00 a
+# Description: Extraction of Natural Gas
+*
+CMCO00I00 a
+# Description: Import of Coal
+*
+resources: 
+endata

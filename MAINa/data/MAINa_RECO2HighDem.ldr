@@ -1,0 +1,26 @@
+loadregions:
+ltype seasonal
+year 2015 sa sb sc sd se
+range 2015-01-01 2015-03-01 2015-06-01 2015-09-01 2015-12-01 2016-01-01
+season sa anyday
+day anyday 59
+name  aaa aab aac aad aae aaf aag aah aai aaj
+length  0.25 0.08333 0.08333 0.08333 0.08333 0.08333 0.08333 0.08333 0.08333 0.08333
+season sb anyday
+day anyday 92
+name  baa bab bac bad bae baf bag bah bai baj
+length  0.24999 0.08334 0.08334 0.08334 0.08334 0.08334 0.125 0.04167 0.08334 0.08334
+season sc anyday
+day anyday 92
+name  caa cab cac cad cae caf cag cah cai caj
+length  0.25 0.08334 0.08334 0.08334 0.08334 0.08334 0.125 0.04167 0.08334 0.08334
+season sd anyday
+day anyday 91
+name  daa dab dac dad dae daf dag dah dai daj
+length  0.25 0.08333 0.08333 0.08333 0.08333 0.08333 0.125 0.04167 0.08333 0.08333
+season se anyday
+day anyday 31
+name  eaa eab eac ead eae eaf eag eah eai eaj
+length  0.25 0.08334 0.08334 0.08334 0.08334 0.08334 0.12499 0.04167 0.08334 0.08334
+loadcurves:
+

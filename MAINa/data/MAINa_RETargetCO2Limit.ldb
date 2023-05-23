@@ -1,0 +1,102 @@
+TDB: empty
+ADB: MAINa
+problem: MAINa
+description:
+# MAINa
+drate: 10
+timesteps: 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042
+loadregions:
+ltype ordered seasonal 1 0
+year 2015 1 50
+name aaa aab aac aad aae aaf aag aah aai aaj \
+baa bab bac bad bae baf bag bah bai baj \
+caa cab cac cad cae caf cag cah cai caj \
+daa dab dac dad dae daf dag dah dai daj \
+eaa eab eac ead eae eaf eag eah eai eaj 
+length 0.040411 0.01347 0.01347 0.01347 0.01347 0.01347 0.01347 0.01347 0.01347 0.01347 \
+0.06301 0.021005 0.021005 0.021005 0.021005 0.021005 0.031507 0.010502 0.021005 0.021005 \
+0.063014 0.021005 0.021005 0.021005 0.021005 0.021005 0.031507 0.010502 0.021005 0.021005 \
+0.062329 0.020776 0.020776 0.020776 0.020776 0.020776 0.031164 0.010388 0.020776 0.020776 \
+0.021233 0.007078 0.007078 0.007078 0.007078 0.007078 0.010616 0.003539 0.007078 0.007078 
+energyforms:
+final f
+# final demand
+demand d 
+# demand
+*
+Exports x
+# DRC, Jordan etc
+EL_EU X 
+# Export Europe
+EL_JLS Y 
+# Export Jordan and Syria
+*
+demand:
+d-f  c 1
+loadcurve:
+relationsc:
+relationsp:
+relationss:
+relations1:
+RELO RELO o 
+*
+REHI REHI o 
+*
+TXAO TXAO o 
+*
+TXBW TXBW o 
+*
+TXBI TXBI o 
+*
+TXCD TXCD o 
+*
+TXEG TXEG o 
+*
+TXET TXET o 
+*
+TXKE TXKE o 
+*
+TXLS TXLS o 
+*
+TXMW TXMW o 
+*
+TXMZ TXMZ o 
+*
+TXNA TXNA o 
+*
+TXRW TXRW o 
+*
+TXZA TXZA o 
+*
+TXSD TXSD o 
+*
+TXSS TXSS o 
+*
+TXSZ TXSZ o 
+*
+TXTZ TXTZ o 
+*
+TXUG TXUG o 
+*
+TXZM TXZM o 
+*
+TXZW TXZW o 
+*
+TXDZ TXDZ o 
+*
+TXLY TXLY o 
+*
+TXMA TXMA o 
+*
+TXMR TXMR o 
+*
+TXTN TXTN o 
+*
+relations2:
+variables:
+systems:
+DEM a
+*
+resources: 
+endata
+

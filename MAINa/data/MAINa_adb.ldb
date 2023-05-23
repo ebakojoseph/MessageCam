@@ -1,0 +1,570 @@
+TDB: empty
+ADB: MAINa
+problem: MAINa
+description:
+# MAINa
+drate: 10
+timesteps: 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042
+loadregions:
+ltype ordered seasonal 1 0
+year 2015 1 50
+name aaa aab aac aad aae aaf aag aah aai aaj \
+baa bab bac bad bae baf bag bah bai baj \
+caa cab cac cad cae caf cag cah cai caj \
+daa dab dac dad dae daf dag dah dai daj \
+eaa eab eac ead eae eaf eag eah eai eaj 
+length 0.040411 0.01347 0.01347 0.01347 0.01347 0.01347 0.01347 0.01347 0.01347 0.01347 \
+0.06301 0.021005 0.021005 0.021005 0.021005 0.021005 0.031507 0.010502 0.021005 0.021005 \
+0.063014 0.021005 0.021005 0.021005 0.021005 0.021005 0.031507 0.010502 0.021005 0.021005 \
+0.062329 0.020776 0.020776 0.020776 0.020776 0.020776 0.031164 0.010388 0.020776 0.020776 \
+0.021233 0.007078 0.007078 0.007078 0.007078 0.007078 0.010616 0.003539 0.007078 0.007078 
+energyforms:
+final f
+# final demand
+demand d 
+# demand
+*
+Exports x
+# DRC, Jordan etc
+EL_EU X 
+# Export Europe
+EL_JLS Y 
+# Export Jordan and Syria
+*
+demand:
+d-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+loadcurve:
+relationsc:
+relationsp:
+relationss:
+relations1:
+RELO RELO o 
+*
+REHI REHI o 
+*
+TXAO TXAO o 
+*
+TXBW TXBW o 
+*
+TXBI TXBI o 
+*
+TXCD TXCD o 
+*
+TXEG TXEG o 
+*
+TXET TXET o 
+*
+TXKE TXKE o 
+*
+TXLS TXLS o 
+*
+TXMW TXMW o 
+*
+TXMZ TXMZ o 
+*
+TXNA TXNA o 
+*
+TXRW TXRW o 
+*
+TXZA TXZA o 
+*
+TXSD TXSD o 
+*
+TXSS TXSS o 
+*
+TXSZ TXSZ o 
+*
+TXTZ TXTZ o 
+*
+TXUG TXUG o 
+*
+TXZM TXZM o 
+*
+TXZW TXZW o 
+*
+TXDZ TXDZ o 
+*
+TXLY TXLY o 
+*
+TXMA TXMA o 
+*
+TXMR TXMR o 
+*
+TXTN TXTN o 
+*
+relations2:
+variables:
+systems:
+DEM a
+*
+CDELNG1AO p
+# Description: Generic DRC-Angola
+2. activity q
+*
+CDELNP1AO k
+# Description: Candidate Inga N`Zeto Phase 1 DRC-Angola (Matadi-Nzeto) 400AC
+2. activity l
+*
+CDELNP1BI k
+# Description: Candidate DRC-Burundi (?-Bujumbura) 400AC
+2. activity l
+*
+RWELNP1BI k
+# Description: Candidate Rwanda-Burundi (Ruzuzi-Bujumbura) 220AC
+2. activity l
+*
+RWELNG1BI p
+# Description: Generic Burundi - Rwanda
+2. activity q
+*
+ZAELEX1BW a
+# Description: Existing Botswana-South Africa (Gaborone-Kopfontein/Gaborone-Spitskop/Segoditshane-KOFF) 132AC
+2. activity b
+*
+ZAELEX2BW c
+# Description: Existing Botswana-South Africa (Phokoje-Matimba) 400AC
+2. activity d
+*
+ZWELEX1BW a
+# Description: Existing Botswana-Zimbabwe (Phokoje-Insukamini/Francistown-Marvel) 400/220AC
+2. activity b
+*
+ZWELNC1BW f
+# Description: Committed [Zizabona] Botswana-Zimbabwe (Pandamatenga-Victoria Falls) 330/400AC
+2. activity g
+*
+ZAELNC1BW f
+# Description: Committed [BOSA] Botswana-South Africa (Isang-Watershed B) 400AC
+2. activity g
+*
+ZAELNP1CD k
+# Description: Candidate DRC-South Africa Grand Inga HVDC Phase 1 (Inga - Merensky) 600HVDC
+2. activity l
+*
+ZAELNG1CD p
+# Description: Generic DRC-South Africa Grand Inga HVDC (Inga - Merensky) 600HVDC
+2. activity q
+*
+ZMELEX1CD a
+# Description: Existing DRC-Zambia (Lumumbashi-Luano) 220AC
+2. activity b
+*
+ZMELNG1CD p
+# Description: Generic Zambia-DRC (Solwezi-Kolwezi) 
+2. activity q
+*
+ZMELNP1CD k
+# Description: Candidate DRC-Zambia (Matadi/Kolwezi-Lumwana/Solwezi) 500DC
+2. activity l
+*
+ERELNG1DJ p
+# Description: Generic Djibouti - Eritrea
+2. activity q
+*
+SOELNG1DJ p
+# Description: Generic Djibouti - Somalia
+2. activity q
+*
+ETELEX1DJ a
+# Description: Existing Ethiopia-Djibouti () 220AC
+2. activity b
+*
+DJELNG1ET p
+# Description: Generic Ethiopia - Djibouti
+2. activity q
+*
+DJELNP1ET k
+# Description: Candidate Ethiopia-Dijbouti (Dire Dawa-Border) 400AC
+2. activity l
+*
+ERELNG1ET p
+# Description: Generic Ethiopia - Eritrea
+2. activity q
+*
+SOELNG1ET p
+# Description: Generic Ethiopia - Somalia
+2. activity q
+*
+SDELEX1ET a
+# Description: Existing Sudan-Ethiopia () AC
+2. activity b
+*
+SDELNP1ET k
+# Description: Candidate Sudan-Ethiopia (Ed Damazin-Beles) 500AC
+2. activity l
+*
+SDELNG1ET p
+# Description: Generic Ethiopia-Sudan () 500AC
+2. activity q
+*
+ETELNC1KE f
+# Description: Committed [500HVDC]Ethiopia-Kenya (Ethiopia border-Suswa) 500HVDC
+2. activity g
+*
+ETELNG1KE p
+# Description: Generic PIDA North-South Power Transmission Corridor Project () 500DC
+2. activity q
+*
+SOELNG1KE p
+# Description: Generic Kenya - Somalia
+2. activity q
+*
+SDELNG1KE p
+# Description: Generic Kenya - Sudan
+2. activity q
+*
+TZELNG1KE p
+# Description: Generic PIDA North-South Power Transmission Corridor Project () 765AC
+2. activity q
+*
+TZELNC1KE f
+# Description: Committed [ZTK] Kenya -Tanzania (Isinya-Arusha) 400AC
+2. activity g
+*
+UGELEX1KE a
+# Description: Committed Uganda-Kenya (Bujagali/Tororo-Lessos) 400AC
+2. activity b
+*
+UGELNG1KE p
+# Description: Generic Kenya - Uganda
+2. activity q
+*
+ZAELEX1LS a
+# Description: Existing Lesotho-South Africa (Maboti-Tweespruit/Khukhuna-Clarens) 132AC/132AC
+2. activity b
+*
+ZAELNG1LS p
+# Description: Generic Lesotho-South Africa
+2. activity q
+*
+MZELNP1MW k
+# Description: Candidate Mozambique-Malawi Inteconnector (Matambo-Phombeya) 400 kV AC
+2. activity l
+*
+MZELNP1TZ k
+# Description: Candidate Mozambique-Tanzania Interconnector () 400AC
+2. activity l
+*
+MZELNG1MW p
+# Description: Generic PIDA North-South Power Transmission Corridor Project () 400?AC
+2. activity q
+*
+ZMELNG1MW p
+# Description: Candidate Malawi - Zambia 330 AC
+2. activity q
+*
+ZAELEX1MZ a
+# Description: Existing Mozambique-South Africa (Apollo-Songo) 533HVDC
+2. activity b
+*
+ZAELEX2MZ c
+# Description: Existing Mozambique-South Africa (Maputo (Motraco)-Arnot/Ressano Garcia-Komatipoort) 400AC/132AC
+2. activity d
+*
+ZMELNP1MZ m
+# Description: Candidate Zambia-Mozambique () 400AC
+2. activity n
+*
+ZMELNG1MZ p
+# Description: Generic Zambia-Mozambique
+2. activity q
+*
+ZMELEX1MZ a
+# Description: Existing Mozambique-Zambia (Songo-Msoro) 400AC
+2. activity b
+*
+SZELEX1MZ a
+# Description: Existing Mozambique-Swaziland (Maputo-Edwaleni/Maputo-Edwalieni2/Matola-Kalanga) 400AC/400AC
+2. activity b
+*
+ZWELEX1MZ a
+# Description: Existing Mozambique-Zimbabwe (Songo - Bindura) 400AC
+2. activity b
+*
+ZWELNP1MZ k
+# Description: Candidate Mozisa Mozambique-Zimbabwe (Songo-Msoro) 400AC
+2. activity l
+*
+ZWELNC1MZ f
+# Description: Committed [Mozisa] Mozambique-Zimbabwe (Inchope(Matambo-Songo)-Orange Grove(Triangle-Msoro)) 400AC
+2. activity g
+*
+ZAELNG1NA p
+# Description: Generic Namibia - South Africa (Obib-Juno (Kudu/Oranjemund/Aggeneis)) 400AC
+2. activity q
+*
+ZAELEX1NA a
+# Description: Existing Namibia-South Africa (Kokerboom-Aries/Harib-Aggeneis) 400/220AC
+2. activity b
+*
+ZAELNC1NA c
+# Description: Committed Namibia-South Africa (Obib-Oranjemond-Gromis 400kV) 400AC
+2. activity d
+*
+BWELNP1NA k
+# Description: Candidate Namibia-Botswana (Gerus-Maun) 400AC
+2. activity l
+*
+ZMELNC1NA f
+# Description: Committed [Zizabona] Namibia-Zambia (Gerus-Sesheke) 400AC
+2. activity g
+*
+AOELNC1NA f
+# Description: Committed [ANNA] Namibia-Angola (Omatando-Xangongo/Baynes-Cahama) 400AC/400AC
+2. activity g
+*
+CDELNG1RW p
+# Description: Generic Rwanda - DRC
+2. activity q
+*
+CDELNP1RW k
+# Description: Candidate DRC-Rwanda (Poids-Bukari) 220AC
+2. activity l
+*
+CDELNP2RW m
+# Description: Candidate DRC-Rwanda (Kamanyola-Rusizi) 400AC
+2. activity n
+*
+CDELNP1UG m
+# Description: Generic DRC-Uganda () 400AC
+2. activity n
+*
+UGELEX1RW a
+# Description: Existing Uganda-Rwanda (Mbarara-Birembo) 220AC
+2. activity b
+*
+UGELNG1RW p
+# Description: Generic Uganda-Rwanda () 220AC
+2. activity q
+*
+ERELNG1SD p
+# Description: Generic Sudan - Eritrea
+2. activity q
+*
+UGELNP1SS m
+# Description: Candidate Sudan - Uganda
+2. activity n
+*
+SDELNP1SS o
+# Description: Candidate Sudan-South Sudan (?-Bobanosa) 220AC
+2. activity n
+*
+UGELNG1SS p
+# Description: Generic Sudan - Uganda
+2. activity q
+*
+BIELNG1TZ p
+# Description: Generic Tanzania - Burundi
+2. activity q
+*
+BIELNP1TZ k
+# Description: Candidate Tanzania-Burundi (Kigoma-Musimba) 400AC
+2. activity l
+*
+MWELNG1TZ p
+# Description: Generic PIDA North-South Power Transmission Corridor Project () 400?AC
+2. activity q
+*
+ZMELNG1TZ p
+# Description: Generic Tanzania - Zambia
+2. activity q
+*
+ZMELNC1TZ f
+# Description: Committed [ZTK] Zambia-Tanzania (Kasama Nakonde-Tunduma Mbeya) 400AC
+2. activity g
+*
+RWELNP1TZ k
+# Description: Candidate Rwanda-Tanzania (Gasogi-Rusumo) 220AC
+2. activity l
+*
+RWELNG1TZ p
+# Description: Generic Tanzania - Rwanda
+2. activity q
+*
+UGELEX1TZ a
+# Description: Existing Uganda-Tanzania (Masaka-Kyaka) 132AC/220AC
+2. activity b
+*
+CDELNG1UG p
+# Description: Generic DRC-Uganda
+2. activity q
+*
+CDELNG1TZ p
+# Description: Generic DRC-Tanzania
+2. activity q
+*
+UGELNG1TZ p
+# Description: Generic Tanzania - Uganda 400 AC
+2. activity q
+*
+SZELEX1ZA a
+# Description: Existing South Africa-Swaziland (Mahamba-Normandie/Edwalieni-Camden) 132AC/400AC
+2. activity b
+*
+SZELNG1ZA p
+# Description: Generic Swaziland-South Africa (NH2 - Normandie) 132AC
+2. activity q
+*
+ZWELNP1ZA k
+# Description: Candidate Zimbabwe -South Africa (Insukamini-Nzehelele) 400AC
+2. activity l
+*
+ZWELNC1ZA f
+# Description: Committed [Mozisa] South Africa-Zimbabwe (Nzhelele-Triangle) 400AC
+2. activity g
+*
+ZWELNG1ZA p
+# Description: Generic PIDA North-South Power Transmission Corridor Project () AC
+2. activity q
+*
+ZWELEX1ZM a
+# Description: Existing Zambia-Zimbabwe (Kariba North-Kariba South) 330AC
+2. activity b
+*
+ZWELNC1ZM f
+# Description: Committed [Zizabona] Zambia-Zimbabwe (Livingstone-Victoria Falls) 330AC
+2. activity g
+*
+ZWELNP1ZM k
+# Description: Candidate Zambia-Zimbabwe (Livingstone-Zambezi) 330AC
+2. activity l
+*
+ZMELNG1ZW p
+# Description: Generic PIDA North-South Power Transmission Corridor Project () 400AC
+2. activity q
+*
+TDELNP1CM A
+# Description: Candidate Cameroon-Chad 220 kV (Maroua-Ndjamena)
+2. activity A
+*
+TDELNP2CM B
+# Description: Candidate Cameroon-Chad 400 kV
+2. activity B
+*
+CFELNP1CM A
+# Description: Candidate Cameroon-CAR 220 kV (Dimoli)
+2. activity A
+*
+GAELNP1CM A
+# Description: Candidate Cameroon-Gabon (Memve'ele-Bata-Ntoum)
+2. activity A
+*
+CFELNG1CM B
+# Description: Generic Cameroon-CAR
+2. activity B
+*
+TDELNG1CM C
+# Description: Generic Cameroon-Chad
+2. activity C
+*
+CGELNG1CM A
+# Description: Generic Cameroon-Congo
+2. activity A
+*
+GAELNG1CM B
+# Description: Generic Cameroon-Gabon
+2. activity B
+*
+CMELNP1GQ A
+# Description: Candidate Cameroon-EQG (Memve'ele-Bata-Ntoum)
+2. activity A
+*
+CMELNG1GQ B
+# Description: Generic Cameroon-EQG
+2. activity B
+*
+CFELNP1CG A
+# Description: Candidate Congo-CAR 220 kV (Dimoli)
+2. activity A
+*
+GAELNP1CG A
+# Description: Candidate Congo-Gabon 400 kv (Grand Poubara)
+2. activity A
+*
+CFELNG1CG B
+# Description: Generic Congo-CAR
+2. activity B
+*
+GAELNG1CG B
+# Description: Generic Congo-Gabon
+2. activity B
+*
+GQELNP1GA A
+# Description: Candidate Gabon-EQG (Memve'ele-Bata-Ntoum)
+2. activity A
+*
+GQELNP2GA B
+# Description: Candidate Gabon-EQG (Mongomo-Oyem)
+2. activity B
+*
+GQELNG1GA C
+# Description: Generic Gabon-EQG
+2. activity C
+*
+CGELNG1AO A
+# Description: Generic Angola-Congo
+2. activity A
+*
+CGELNP1AO B
+# Description: Candidate Angola-Congo 400 kV (Inga-Cabinda-Pointe Noire)
+2. activity B
+*
+RWELEX1BI A
+# Description: Existing Burundi-Rwanda 110 kV
+2. activity A
+*
+RWELNP2BI B
+# Description: Candidate Burundi-Rwanda (Gitega-Kigoma) 220 kV
+2. activity B
+*
+UGELNC1RW A
+# Description: Existing Rwanda-Uganda (Birembo-Mirama) 220 kV
+2. activity A
+*
+BIELEX1CD A
+# Description: Existing DRC-Burundi 110 kV 
+2. activity A
+*
+CGELEX1CD A
+# Description: Existing DRC-Congo 200 kV (Inga-Brazzaville)
+2. activity A
+*
+RWELEX1CD A
+# Description: Existing DRC-Rwanda 110 kV 
+2. activity A
+*
+AOELNP1CD A
+# Description: Candidate DRC-Angola 400 kV (Inga-Cabinda-Pointe Noire)
+2. activity A
+*
+BIELNG1CD B
+# Description: Generic DRC-Burundi
+2. activity B
+*
+CFELNG1CD A
+# Description: Generic DRC-CAR
+2. activity A
+*
+CGELNG1CD B
+# Description: Generic DRC-Congo
+2. activity B
+*
+MAELEX1DZ r
+# Description: Ouijda_Tlemcen
+2. activity s
+*
+TNELEX1DZ t
+# Description: Jendouba_Chafia
+2. activity u
+*
+LYELEX1TN v
+# Description: Tataouine_Rouiss
+2. activity w
+*
+EGELEX1LY y
+# Description: Tobrouk_Assaloum
+2. activity z
+*
+resources: 
+endata
+
